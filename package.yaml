@@ -1,5 +1,5 @@
 name:                gloss-random
-version:             0.1.0.0
+version:             0.2.0.0
 github:              "scriptocreator/gloss-random"
 license:             BSD-3-Clause
 author:              Andrey Boyarkin
@@ -39,81 +39,9 @@ library:
   source-dirs: src
 
 executables:
-  ball-exe:
+  gloss-random-exe:
     main:                Main.hs
-    source-dirs:         1-ball
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - gloss-random
-  screen-exe:
-    main:                Main.hs
-    source-dirs:         2-screen
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - gloss-random
-  array-exe:
-    main:                Main.hs
-    source-dirs:         3-array
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - gloss-random
-  nesting-exe:
-    main:                Main.hs
-    source-dirs:         4-nesting
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - gloss-random
-  substructure-exe:
-    main:                Main.hs
-    source-dirs:         5-substructure
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - gloss-random
-  rotation-balls-exe:
-    main:                Main.hs
-    source-dirs:         6-rotation_balls
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - gloss-random
-  wheel-exe:
-    main:                Main.hs
-    source-dirs:         7-wheel
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - gloss-random
-  rotation-wheels-exe:
-    main:                Main.hs
-    source-dirs:         8-rotation_wheels
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - gloss-random
-  rotation-wheel-exe:
-    main:                Main.hs
-    source-dirs:         9-rotation_wheel
+    source-dirs:         app
     ghc-options:
     - -threaded
     - -rtsopts
