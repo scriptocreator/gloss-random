@@ -25,7 +25,11 @@ source-repository head
 
 library
   exposed-modules:
+      HandleKeys
+      Initializer
       Lib
+      PositAndSpeed
+      Render
   other-modules:
       Paths_gloss_random
   autogen-modules:
@@ -42,14 +46,7 @@ library
 executable gloss-random-exe
   main-is: Main.hs
   other-modules:
-      Array
-      Ball
-      Nesting
-      Rotation'Balls
-      Rotation'Wheels
-      Screen
-      Substructure
-      Wheel
+      Game
       Paths_gloss_random
   autogen-modules:
       Paths_gloss_random
